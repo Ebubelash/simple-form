@@ -1,0 +1,45 @@
+*{margin: 0, padding 0;}
+
+body{
+    background-color: rgba(255, 228, 196, 0.228);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form1{
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0.717);
+    padding: 30px 20px; 
+    box-sizing: border-box;
+    position: fixed; left: 50%; left: 40%;
+    transform: translate(0%, 30%);
+    margin-top: -90px;
+
+}
+
+.Signup-h1{text-align: center;}
+
+input {
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+}
+
+.buttonsignup {
+    background: #bac675;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.buttonsignup:hover{
+    background:#b3d00c48; 
+    transition: -10s;
+}
+
+::placeholder {color: rgba(255, 255, 255, 0.237);}
